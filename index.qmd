@@ -1,5 +1,19 @@
 ---
 title: "My Home Page"
+execute: 
+  echo: false
 ---
 
+
+```{r setup}
+library(knitr)
+
+
+
+```
+
+```{r}
+knitr::include_graphics("size_v_weight.png")
+
+```
 
